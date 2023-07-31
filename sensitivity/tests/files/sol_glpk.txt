@@ -1,0 +1,96 @@
+Problem:    
+Rows:       16
+Columns:    48
+Non-zeros:  96
+Status:     OPTIMAL
+Objective:  x1 = 10920 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 c_e_x50_     NS            45            45             =             1 
+     2 c_e_x51_     NS            38            38             =            13 
+     3 c_e_x52_     NS            15            15             =            -2 
+     4 c_e_x53_     NS            40            40             =            10 
+     5 c_e_x54_     NS            25            25             =            -4 
+     6 c_e_x55_     NS            20            20             =            23 
+     7 c_e_x56_     NS            29            29             =            -2 
+     8 c_e_x57_     NS            23            23             =            30 
+     9 c_e_x58_     NS            34            34             =         < eps
+    10 c_e_x59_     NS            55            55             =            14 
+    11 c_e_x60_     NS            28            28             =            35 
+    12 c_e_x61_     NS            18            18             =            48 
+    13 c_e_x62_     NS            90            90             =            27 
+    14 c_e_x63_     NS            85            85             =            15 
+    15 c_e_x64_     NS           100           100             =            27 
+    16 c_e_x65_     B             95            95             = 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x2           B             45             0               
+     2 x3           B             30             0               
+     3 x4           B             15             0               
+     4 x5           NL             0             0                          21 
+     5 x6           NL             0             0                          41 
+     6 x7           NL             0             0                           5 
+     7 x8           NL             0             0                          54 
+     8 x9           NL             0             0                          20 
+     9 x10          NL             0             0                          73 
+    10 x11          NL             0             0                          77 
+    11 x12          NL             0             0                          63 
+    12 x13          NL             0             0                          35 
+    13 x14          NL             0             0                          39 
+    14 x15          B              8             0               
+    15 x16          NL             0             0                          23 
+    16 x17          B             34             0               
+    17 x18          NL             0             0                           4 
+    18 x19          B             20             0               
+    19 x20          NL             0             0                          16 
+    20 x21          B             23             0               
+    21 x22          NL             0             0                          34 
+    22 x23          NL             0             0                          39 
+    23 x24          NL             0             0                          32 
+    24 x25          NL             0             0                           9 
+    25 x26          NL             0             0                          52 
+    26 x27          NL             0             0                          13 
+    27 x28          NL             0             0                          46 
+    28 x29          B              6             0               
+    29 x30          B             25             0               
+    30 x31          NL             0             0                          15 
+    31 x32          B             29             0               
+    32 x33          NL             0             0                           3 
+    33 x34          B             34             0               
+    34 x35          NL             0             0                           6 
+    35 x36          NL             0             0                          11 
+    36 x37          B              6             0               
+    37 x38          NL             0             0                         134 
+    38 x39          NL             0             0                          95 
+    39 x40          NL             0             0                         114 
+    40 x41          NL             0             0                          84 
+    41 x42          NL             0             0                          81 
+    42 x43          NL             0             0                          65 
+    43 x44          NL             0             0                          54 
+    44 x45          NL             0             0                          34 
+    45 x46          NL             0             0                          35 
+    46 x47          B             55             0               
+    47 x48          B             28             0               
+    48 x49          B             12             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
